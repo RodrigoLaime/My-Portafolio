@@ -4,7 +4,7 @@
   margin: 0;
 }
 :root {
-  --color-verde: rgb(0, 221, 0);
+  --color-verde: rgb(32, 129, 32);
   --color-verdeOscuro: rgb(0, 128, 38);
 }
 html {
@@ -17,18 +17,75 @@ font-family: 'Lexend Deca', sans-serif; */
 header {
   width: 100vw;
   height: 50vh;
+  background-image: url('https://images.unsplash.com/photo-1523828469188-8ec2b90b6490?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container-menu {
-  width: 100vw;
-  height: 5rem;
-  background-color: aqua;
+  width: 100%;
+  height: 15%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 .container-menu a {
-  font-size: 1.6rem;
-  margin: 0 20px;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: "Lexend Deca", sans-serif;
+  color: black;
+  margin: 0 5px;
+}
+.container-menu .borde {
+  border-right: 2px solid rgb(0, 0, 0);
+}
+
+.container-header-perfil {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+}
+.perfil-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+/* MAIN--------------------------------- */
+main {
+  width: 100vw;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* Formulario----------- */
+.conatiner-form--contet {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* FOOTER---------------- */
+footer {
+  width: 100vw;
+  height: 5vh;
+  background: var(--color-verde);
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Lexend Deca', sans-serif; 
+  font-size: 1.1rem;
+}
+footer a{
+  text-decoration: none;
+  color: black;
 }
